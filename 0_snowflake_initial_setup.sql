@@ -20,7 +20,7 @@ Date(yyyy-mm-dd)    Author              Comments
 2023-03-17          Jacob Kranzler      Initial Release
 ***************************************************************************************************/
 
-USE ROLE sysadmin;
+USE ROLE accountadmin;
 
 /*--
  • database, schema and warehouse creation
@@ -247,7 +247,7 @@ GRANT APPLY MASKING POLICY ON ACCOUNT TO ROLE tasty_admin;
 GRANT APPLY MASKING POLICY ON ACCOUNT TO ROLE tasty_data_engineer;
   
 -- raw_pos table build
-USE ROLE sysadmin;
+USE ROLE accountadmin;
 USE WAREHOUSE demo_build_wh;
 
 /*--

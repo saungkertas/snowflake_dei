@@ -91,7 +91,7 @@ CREATE OR REPLACE WAREHOUSE tasty_data_app_wh
 COMMENT = 'data app warehouse for tasty bytes';
 
 -- create roles
-USE ROLE securityadmin;
+-- USE ROLE securityadmin;
 
 -- functional roles
 CREATE ROLE IF NOT EXISTS tasty_admin

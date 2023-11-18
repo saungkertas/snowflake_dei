@@ -127,7 +127,7 @@ USE ROLE accountadmin;
 
 GRANT CREATE WAREHOUSE ON ACCOUNT TO ROLE tasty_admin;
 
-USE ROLE securityadmin;
+-- USE ROLE securityadmin;
 
 GRANT USAGE ON DATABASE frostbyte_tasty_bytes TO ROLE tasty_admin;
 GRANT USAGE ON DATABASE frostbyte_tasty_bytes TO ROLE tasty_data_engineer;
